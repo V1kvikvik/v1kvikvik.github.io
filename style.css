@@ -1,0 +1,104 @@
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #222;
+    padding: 10px 0;
+    height: 20px;
+    z-index: 99
+}
+.nav-link{
+    background: #222;
+    color: white;
+    margin-left: 90px;
+    text-decoration: none;
+    position: relative;
+}
+body{
+    background-color: #777;
+    color:  white;
+}
+.in{
+    margin-left: 100px;
+    float:left;
+}
+h2{
+    margin-top: 40px
+}
+#info{
+    width: auto;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #484848;
+    height: 700px;
+    margin-top: 0px;
+}
+.who{
+    width: auto;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #888888;
+    height: 700px;
+    margin-top: 0px
+}
+#types{
+    width: auto;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #707070;
+    height: 700px;
+    margin-top: 0px
+}
+.wiki{
+    text-decoration: none;
+}
+#info-text{
+    position: relative;
+    top: 250px;
+    background: black;
+    border-radius: 10px;
+    width: 450px;
+    height: 45px;
+    font-size: 22px
+}
+.who-text{
+    position: relative;
+    width: 350px;
+    font-size: 22px;
+    top: 200px;
+}
+#types-text{
+    position: relative;
+    width: 350px;
+    font-size: 22px;
+    top: 200px;
+    left: 600px
+}
+a{
+    text-decoration:    none;
+    color:  black;   
+}
+#header{
+    position: relative;           
+    top: 100px
+}
+.match{
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: #696969;
+    border-radius:  10px;
+    opacity: 0.6;
+    background-color: green
+}
+.match:hover{
+    animation: app 1s;
+    opacity: 1;
+
+}
+@keyframes app{
+    0%{ opacity: 0.5; background-color: red;
+     }
+    50%{ opacity: 0.8; background-color: yellow; }
+    100%{ opacity: 1; background-color: green }
+}
